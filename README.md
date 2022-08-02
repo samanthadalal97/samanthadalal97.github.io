@@ -1,3 +1,3 @@
 # Personal Website
 
-www.morgan-klaus.com
+www.samantha-dalal.com
