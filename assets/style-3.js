@@ -112,3 +112,15 @@ $(".institution").css("color", insttitlecolor);
 $(".institution").css("font-size", insttitlesize);
 $(".years").css("color", instyearcolor);
 $(".years").css("font-size", instyearsize);
+
+// Add event listener after DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('aboutMeToggle');
+    const content = document.getElementById('aboutMeContent');
+    const icon = toggleButton.querySelector('.toggle-icon');
+    
+    toggleButton.addEventListener('click', function() {
+        content.classList.toggle('active');
+        icon.classList.toggle('rotated');
+    });
+});
