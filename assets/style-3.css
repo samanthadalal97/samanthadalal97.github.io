@@ -1,27 +1,23 @@
 /* Collapsible Section Styles */
 .collapsible-section {
     margin: 30px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
 }
 
 .collapsible-header {
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: transparent;
     border: none;
-    padding: 15px 20px;
+    padding: 0;
     text-align: left;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: background-color 0.3s ease;
     font-family: inherit;
 }
 
 .collapsible-header:hover {
-    background-color: #e9ecef;
+    background-color: transparent;
 }
 
 .collapsible-header h3 {
@@ -43,7 +39,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .collapsible-content.active {
